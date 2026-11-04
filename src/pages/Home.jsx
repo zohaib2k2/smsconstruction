@@ -19,8 +19,8 @@ export default function Home() {
           <div className="hero-actions"><Link className="button button-primary" to="/projects">View our projects <ArrowUpRight size={16} /></Link><Link className="text-link" to="/services">Our services <ArrowDownRight size={16} /></Link></div>
           <div className="hero-note"><span>01 / 04</span><span>FROM CONCEPT TO COMPLETION</span></div>
         </div>
-        <div className="hero-art" aria-label="Architectural composition placeholder">
-          <div className="hero-art-shape shape-one"></div><div className="hero-art-shape shape-two"></div><div className="hero-art-shape shape-three"></div>
+        <div className="hero-art" aria-label="SMS engineering and construction hero image">
+          <img src="/images/hero/indoors.png" alt="Interior construction and engineering project" />
           <div className="art-label"><span>BUILT ENVIRONMENTS</span><b>DESIGN / ENGINEERING / BUILD</b></div>
           <div className="art-coordinate">24°51' N<br />67°00' E</div>
         </div>
@@ -32,7 +32,10 @@ export default function Home() {
       <div className="container intro-layout">
         <div className="intro-side"><span className="eyebrow">01 — ABOUT SMS</span><div className="vertical-note">KARACHI · PAKISTAN</div></div>
         <div className="intro-main"><SectionHeading label="ENGINEERING PRECISION" title={<>Creating<br /><em>experiences.</em></>} /><p className="lead">{company.intro}</p><Link className="line-link" to="/about">Discover SMS <ArrowUpRight size={16} /></Link></div>
-        <div className="intro-visual"><div className="visual-lines"></div><span>SPACE / FORM / FUNCTION</span></div>
+        <div className="intro-visual" aria-label="SMS intro project visual">
+          <img src="/images/intro/visual.jpeg" alt="Construction and design project visual" />
+          <span>SPACE / FORM / FUNCTION</span>
+        </div>
       </div>
     </section>
 
