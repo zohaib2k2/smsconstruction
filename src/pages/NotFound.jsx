@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function NotFound() { return <section className="page-intro container"><span className="eyebrow">404 / PAGE NOT FOUND</span><h1>Nothing here<br/><em>but possibility.</em></h1><Link className="line-link" to="/">Return home ↗</Link></section> }
