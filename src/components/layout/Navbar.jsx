@@ -11,7 +11,7 @@ export default function Navbar() {
   return <header className="site-header">
     <div className="nav-wrap">
       <Link to="/" className="brand" aria-label="SMS Engineering & Construction home" onClick={() => setOpen(false)}>
-        <img src="/images/brand/sms-logo.png" alt="SMS logo" />
+        <img src="/images/brand/sms-logo-v2.png" alt="SMS logo" />
         <span><strong>SMS</strong><small>ENGINEERING & CONSTRUCTION</small></span>
       </Link>
       <nav className="desktop-nav" aria-label="Main navigation">
